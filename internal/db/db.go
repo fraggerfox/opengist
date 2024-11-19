@@ -149,6 +149,7 @@ func Setup(dbUri string, sharedCache bool) error {
 	return initAdminSettings(map[string]string{
 		SettingDisableSignup:          "0",
 		SettingRequireLogin:           "0",
+		SettingEnableLDAP:             "0",
 		SettingAllowGistsWithoutLogin: "0",
 		SettingDisableLoginForm:       "0",
 		SettingDisableGravatar:        "0",
